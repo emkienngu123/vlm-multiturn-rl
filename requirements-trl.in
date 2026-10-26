@@ -1,0 +1,3 @@
+# Separate integration image: earlier lessons keep their tested dependency lock.
+-r requirements-gpu.in
+trl==1.16.0

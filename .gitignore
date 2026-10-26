@@ -1,0 +1,81 @@
+# Python build products and caches
+__pycache__/
+*.py[oc]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Experiment outputs, datasets, and downloaded assets
+artifacts/
+output/
+outputs/
+runs/
+logs/
+wandb/
+mlruns/
+tensorboard/
+data/
+datasets/
+.cache/
+cache/
+*.log
+events.out.tfevents.*
+
+# Model weights, adapters, optimizer state, and binary bundles
+weights/
+models/
+checkpoints/
+checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.gguf
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Generated reports and render intermediates (retain report source/tools)
+/reports/vlm-multiturn-rl-tutorial.html
+/reports/report-provenance.json
+tmp/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+.ssh/
+.modal.toml
+*.pem
+*.key
+
+# Local agent/editor configuration and OS files
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+._*
+*.swp
+*.swo

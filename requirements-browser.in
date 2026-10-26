@@ -1,0 +1,5 @@
+# Remote browser stack; the local CLI remains free of Torch and browser packages.
+-r requirements-gpu.in
+browsergym-miniwob==0.14.3
+browsergym-core==0.14.3
+playwright==1.44.0
